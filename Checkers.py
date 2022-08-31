@@ -1,8 +1,8 @@
 import pygame
 from checkers.constants import WIDTH, HEIGHT, SQUARE_SIZE, RED
 from checkers.game import Game
-
-
+icon = pygame.image.load('checkers/media/crown.png') 
+pygame.display.set_icon(icon)
 FPS = 60
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
